@@ -1,0 +1,1012 @@
+Contract deployed to address: 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6
+process...
+done
+txhash 0x2e6bd6deaf2273f4363d9765d831c0bd5f670b7de11dbcdc893233fa13390241
+{
+  gas: 143544,
+  failed: false,
+  returnValue: '',
+  structLogs: [
+    {
+      pc: 0,
+      op: 'PUSH1',
+      gas: 121080,
+      gasCost: 3,
+      depth: 1,
+      stack: [],
+      memory: [],
+      storage: {}
+    },
+    {
+      pc: 2,
+      op: 'PUSH1',
+      gas: 121077,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [],
+      storage: {}
+    },
+    {
+      pc: 4,
+      op: 'MSTORE',
+      gas: 121074,
+      gasCost: 12,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 5,
+      op: 'CALLVALUE',
+      gas: 121062,
+      gasCost: 2,
+      depth: 1,
+      stack: [],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 6,
+      op: 'DUP1',
+      gas: 121060,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 7,
+      op: 'ISZERO',
+      gas: 121057,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 8,
+      op: 'PUSH2',
+      gas: 121054,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11,
+      op: 'JUMPI',
+      gas: 121051,
+      gasCost: 10,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 16,
+      op: 'JUMPDEST',
+      gas: 121041,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 17,
+      op: 'POP',
+      gas: 121040,
+      gasCost: 2,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 18,
+      op: 'PUSH1',
+      gas: 121038,
+      gasCost: 3,
+      depth: 1,
+      stack: [],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 20,
+      op: 'CALLDATASIZE',
+      gas: 121035,
+      gasCost: 2,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 21,
+      op: 'LT',
+      gas: 121033,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 22,
+      op: 'PUSH2',
+      gas: 121030,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 25,
+      op: 'JUMPI',
+      gas: 121027,
+      gasCost: 10,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 26,
+      op: 'PUSH1',
+      gas: 121017,
+      gasCost: 3,
+      depth: 1,
+      stack: [],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 28,
+      op: 'CALLDATALOAD',
+      gas: 121014,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 29,
+      op: 'PUSH1',
+      gas: 121011,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 31,
+      op: 'SHR',
+      gas: 121008,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 32,
+      op: 'DUP1',
+      gas: 121005,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 33,
+      op: 'PUSH4',
+      gas: 121002,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 38,
+      op: 'GT',
+      gas: 120999,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 39,
+      op: 'PUSH2',
+      gas: 120996,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 42,
+      op: 'JUMPI',
+      gas: 120993,
+      gasCost: 10,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 43,
+      op: 'DUP1',
+      gas: 120983,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 44,
+      op: 'PUSH4',
+      gas: 120980,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 49,
+      op: 'GT',
+      gas: 120977,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 50,
+      op: 'PUSH2',
+      gas: 120974,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 53,
+      op: 'JUMPI',
+      gas: 120971,
+      gasCost: 10,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 54,
+      op: 'DUP1',
+      gas: 120961,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 55,
+      op: 'PUSH4',
+      gas: 120958,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 60,
+      op: 'EQ',
+      gas: 120955,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 61,
+      op: 'PUSH2',
+      gas: 120952,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 64,
+      op: 'JUMPI',
+      gas: 120949,
+      gasCost: 10,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 941,
+      op: 'JUMPDEST',
+      gas: 120939,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 942,
+      op: 'PUSH2',
+      gas: 120938,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 945,
+      op: 'PUSH1',
+      gas: 120935,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 947,
+      op: 'DUP1',
+      gas: 120932,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 948,
+      op: 'CALLDATASIZE',
+      gas: 120929,
+      gasCost: 2,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 949,
+      op: 'SUB',
+      gas: 120927,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 950,
+      op: 'DUP2',
+      gas: 120924,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 951,
+      op: 'ADD',
+      gas: 120921,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 952,
+      op: 'SWAP1',
+      gas: 120918,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 953,
+      op: 'PUSH2',
+      gas: 120915,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 956,
+      op: 'SWAP2',
+      gas: 120912,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 957,
+      op: 'SWAP1',
+      gas: 120909,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 958,
+      op: 'PUSH2',
+      gas: 120906,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 961,
+      op: 'JUMP',
+      gas: 120903,
+      gasCost: 8,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11191,
+      op: 'JUMPDEST',
+      gas: 120895,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11192,
+      op: 'PUSH1',
+      gas: 120894,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11194,
+      op: 'DUP1',
+      gas: 120891,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11195,
+      op: 'PUSH1',
+      gas: 120888,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11197,
+      op: 'PUSH1',
+      gas: 120885,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11199,
+      op: 'DUP5',
+      gas: 120882,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11200,
+      op: 'DUP7',
+      gas: 120879,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11201,
+      op: 'SUB',
+      gas: 120876,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11202,
+      op: 'SLT',
+      gas: 120873,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11203,
+      op: 'ISZERO',
+      gas: 120870,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11204,
+      op: 'PUSH2',
+      gas: 120867,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11207,
+      op: 'JUMPI',
+      gas: 120864,
+      gasCost: 10,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11216,
+      op: 'JUMPDEST',
+      gas: 120854,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11217,
+      op: 'PUSH1',
+      gas: 120853,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11219,
+      op: 'PUSH2',
+      gas: 120850,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11222,
+      op: 'DUP7',
+      gas: 120847,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11223,
+      op: 'DUP3',
+      gas: 120844,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11224,
+      op: 'DUP8',
+      gas: 120841,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11225,
+      op: 'ADD',
+      gas: 120838,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11226,
+      op: 'PUSH2',
+      gas: 120835,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 11229,
+      op: 'JUMP',
+      gas: 120832,
+      gasCost: 8,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9822,
+      op: 'JUMPDEST',
+      gas: 120824,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9823,
+      op: 'PUSH1',
+      gas: 120823,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9825,
+      op: 'DUP2',
+      gas: 120820,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9826,
+      op: 'CALLDATALOAD',
+      gas: 120817,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9827,
+      op: 'SWAP1',
+      gas: 120814,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9828,
+      op: 'POP',
+      gas: 120811,
+      gasCost: 2,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9829,
+      op: 'PUSH2',
+      gas: 120809,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9832,
+      op: 'DUP2',
+      gas: 120806,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9833,
+      op: 'PUSH2',
+      gas: 120803,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9836,
+      op: 'JUMP',
+      gas: 120800,
+      gasCost: 8,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9799,
+      op: 'JUMPDEST',
+      gas: 120792,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9800,
+      op: 'PUSH2',
+      gas: 120791,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9803,
+      op: 'DUP2',
+      gas: 120788,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9804,
+      op: 'PUSH2',
+      gas: 120785,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9807,
+      op: 'JUMP',
+      gas: 120782,
+      gasCost: 8,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9739,
+      op: 'JUMPDEST',
+      gas: 120774,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9740,
+      op: 'PUSH1',
+      gas: 120773,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9742,
+      op: 'PUSH2',
+      gas: 120770,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9745,
+      op: 'DUP3',
+      gas: 120767,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9746,
+      op: 'PUSH2',
+      gas: 120764,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9749,
+      op: 'JUMP',
+      gas: 120761,
+      gasCost: 8,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9707,
+      op: 'JUMPDEST',
+      gas: 120753,
+      gasCost: 1,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9708,
+      op: 'PUSH1',
+      gas: 120752,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9710,
+      op: 'PUSH20',
+      gas: 120749,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9731,
+      op: 'DUP3',
+      gas: 120746,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9732,
+      op: 'AND',
+      gas: 120743,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9733,
+      op: 'SWAP1',
+      gas: 120740,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9734,
+      op: 'POP',
+      gas: 120737,
+      gasCost: 2,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9735,
+      op: 'SWAP2',
+      gas: 120735,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9736,
+      op: 'SWAP1',
+      gas: 120732,
+      gasCost: 3,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    {
+      pc: 9737,
+      op: 'POP',
+      gas: 120729,
+      gasCost: 2,
+      depth: 1,
+      stack: [Array],
+      memory: [Array],
+      storage: {}
+    },
+    ... 1328 more items
+  ]
+}
